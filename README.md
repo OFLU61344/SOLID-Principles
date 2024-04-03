@@ -484,4 +484,4 @@ public class Validation
 }
 ````
 
-Evet arkadaşlar, yazılım ile ilgilenenlerin bilmesi gerektiğini düşündüğüm temel konulardan birini detaylandırdık. Umarım faydalı olmuştur.
+Kaynak: https://enesaysan.com/software/orneklerle-solid-prensipleri/
