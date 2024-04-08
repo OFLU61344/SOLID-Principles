@@ -40,3 +40,10 @@ Kaliteli kod yazmak için ne kadar özen göstersek de, çalışma hayatında ö
 Projenin içindeki yapılar diğer yapılara o kadar bağımlıdırki; küçük bir değişikliğin neleri etkileyeceğini kestirmeniz çok zor bir hal alır, böyle projeler çöp proje olarak görülür. içerisindeki class'ları ve methodları alıp başka bir projede kullanamazsınız.
 
 Tek sorumluluk prensibine uyarsanız binlerce satırlık class'larınız ve methodlarınız olmaz. Her bir class'ın her bir methodun sadece tek yaptığı iş vardır böylece bir değişiklik yapmak için nedeniniz olmuş olur.
+
+**2.Open/Closed Principle**
+
+Açık kapalı prensibi, yazılım geliştirirken kullandığımız varlıkların (class, method vs.) gelişime açık, kodların ise değişime kapalı olması ilkesidir. Örneğin; bir loglama altyapısı oluşturduğunuzu düşünün, Veritabanına ve XML’e kayıt tutuyorsunuz. Daha sonradan Eventloglara da log tutma ihtiyacı hissettiğinizde, sadece Eventloglara kayıt tutan kodları yazmanız yetecek, kodunuzda hiçbir değişiklik yapmadan bu yapı sisteme entegre olacak. Bunun için uygulayacağımız çözüm şu şekilde olabilir:
+
+![image](https://github.com/OFLU61344/SOLID-Principles/assets/118263276/60c93667-90a8-4cec-b68d-23d12196908a)
+
