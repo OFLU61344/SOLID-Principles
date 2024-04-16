@@ -54,6 +54,7 @@ Kodlarımızda herhangi bir değişiklik yapmaya gerek duymadan alt sınıfları
 
 LSP’ye uymayan yapı örneği;
 
+```java
 public class Square extends Rectangle {
     @Override
     public void setWidth(int width) {
@@ -65,6 +66,7 @@ public class Square extends Rectangle {
         super.setHeight(height);
         super.setWidth(height);
     }
+```
 
   LSP’ye uygunluk tam olarak sınıflardan beklenen davranışları karşılayabilecek bir hiyerarşi düzeni oluşturarak sınıf yapılarımızı geliştirmektir.
 
