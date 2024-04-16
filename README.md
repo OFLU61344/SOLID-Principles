@@ -47,3 +47,29 @@ Açık kapalı prensibi, yazılım geliştirirken kullandığımız varlıkları
 
 ![image](https://github.com/OFLU61344/SOLID-Principles/assets/118263276/60c93667-90a8-4cec-b68d-23d12196908a)
 
+
+**Liskov Substitution**
+
+Kodlarımızda herhangi bir değişiklik yapmaya gerek duymadan alt sınıfları, türedikleri(üst) sınıfların yerine kullanabilmeliyiz. Türeyen sınıf yani alt sınıflar ana(üst) sınıfın tüm özelliklerini ve metotlarını aynı işlevi gösterecek şekilde kullanabilme ve kendine ait yeni özellikler barındırabilmelidir.
+
+LSP’ye uymayan yapı örneği;
+
+public class Square extends Rectangle {
+    @Override
+    public void setWidth(int width) {
+        super.setWidth(width);
+        super.setHeight(width);
+    }
+    @Override
+    public void setHeight(int height) {
+        super.setHeight(height);
+        super.setWidth(height);
+    }
+
+  LSP’ye uygunluk tam olarak sınıflardan beklenen davranışları karşılayabilecek bir hiyerarşi düzeni oluşturarak sınıf yapılarımızı geliştirmektir.
+
+
+**Interface Segregation**
+
+Sorumlulukların hepsini tek bir arayüze toplamak yerine daha özelleştirilmiş birden fazla arayüz oluşturmayı tercih etmemizi söyleyen prensiptir.  Single responsibility ve interface segregation prensipleri birbirine oldukça yakın ve aynı amaca hizmet eden prensiplerdir. Tek fark ise Interface segregation arayüz(interface)ler ile ilgilenirken, Single responsibility sınıflarla ilgilenmektedir.
+
