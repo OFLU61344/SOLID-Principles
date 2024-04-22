@@ -48,7 +48,7 @@ Açık kapalı prensibi, yazılım geliştirirken kullandığımız varlıkları
 ![image](https://github.com/OFLU61344/SOLID-Principles/assets/118263276/60c93667-90a8-4cec-b68d-23d12196908a)
 
 
-**Liskov Substitution**
+**3.Liskov Substitution**
 
 Kodlarımızda herhangi bir değişiklik yapmaya gerek duymadan alt sınıfları, türedikleri(üst) sınıfların yerine kullanabilmeliyiz. Türeyen sınıf yani alt sınıflar ana(üst) sınıfın tüm özelliklerini ve metotlarını aynı işlevi gösterecek şekilde kullanabilme ve kendine ait yeni özellikler barındırabilmelidir.
 
