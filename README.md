@@ -2,7 +2,7 @@
 ### Solid prensibi nedir?
 
 Nesne yönelimli programala ve yazılım geliştirme'de SOLID prensibleri önemli rol oynar 
-aynı zamanda SOLID prensibleri, bir yazılımın yeniden kullanılabilrmesi sürdürülebilmesi ve okunabilir olmasını sağlar
+aynı zamanda SOLID prensibleri, bir yazılımın yeniden kullanılabilmesi sürdürülebilmesi ve okunabilir olmasını sağlar
 
 
 ### Solid Prensibi neden kullanılır?
